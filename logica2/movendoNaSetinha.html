@@ -11,6 +11,13 @@
     var x = 20;
     var y = 20;
 
+    var esquerda = 37;
+    var cima = 38;
+    var direita = 39;
+    var baixo = 40;
+
+    var taxa = 10;
+
     function desenhaCirculo(x, y, raio) {
         pincel.fillStyle = "blue";
         pincel.beginPath();
@@ -29,8 +36,16 @@
 
     setInterval(atualizaTela, 20);
 
-    function leDoTeclado() {
-        
+    function leDoTeclado(evento) {
+        if (evento.keyCode == esquerda) {
+            x -= taxa;
+        } else if (evento.keyCode == direita) {
+            x += taxa;
+        } else if (evento.keyCode == cima) {
+            y -= taxa;
+        } else if (evento.keyCode == baixo) {
+            y += taxa;
+        }
     }
 
     document.onkeydown = leDoTeclado;
