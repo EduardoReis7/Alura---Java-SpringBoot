@@ -1,0 +1,15 @@
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.Scanner;
+
+public class idade {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite a sua data de nascimento(dd/MM/yyyy):");
+		Date dataNascimento = new Date("dd/MM/yyyy");
+		
+		
+		DateTimeFormatter formatador = dataNascimento.format("dd/MM/yyyy");
+	}
+}

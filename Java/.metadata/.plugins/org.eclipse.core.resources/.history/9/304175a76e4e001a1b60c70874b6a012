@@ -1,0 +1,9 @@
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+public class idade {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
+	}
+}

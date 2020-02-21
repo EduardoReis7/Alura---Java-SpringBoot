@@ -1,0 +1,8 @@
+public class Estoque {
+	List<Livro> livros;
+	
+		public Estoque() {
+
+			}
+		}
+}

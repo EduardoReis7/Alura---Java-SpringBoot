@@ -1,0 +1,19 @@
+package exercicios;
+
+import java.util.Comparator;
+import java.util.Scanner;
+
+public class comparaNumero implements Comparator<Integer> {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		Integer n1 = scanner.nextInt();
+		Integer n2 = scanner.nextInt();
+		
+		Integer comparador;
+		comparador.compare(n1, n2);
+	}
+
+}

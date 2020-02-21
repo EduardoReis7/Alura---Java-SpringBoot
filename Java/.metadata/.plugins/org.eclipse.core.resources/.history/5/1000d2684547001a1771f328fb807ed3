@@ -1,0 +1,12 @@
+package br.com.bytebank.banco.test.util;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		Conta cc1 = new ContaCorrente(22, 11);
+		Conta cc2 = new ContaCorrente(22, 22);
+		Conta cp1 = new ContaPoupanca(22, 33);
+		Conta cp2 = new ContaPoupanca(22, 44);
+	}
+
+}

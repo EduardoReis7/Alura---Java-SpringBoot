@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class calculaSalario {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		double salarioMinimo = 1.045;
+		
+//		System.out.println("Digite seu salário: ");
+		double salario = 3020.30;//scanner.nextDouble();
+		
+		int quantidadeSM = 0;
+		
+		while (salarioMinimo <= salario) {
+			quantidadeSM++;
+			
+			
+		}
+		System.out.println(quantidadeSM);
+	}
+
+}

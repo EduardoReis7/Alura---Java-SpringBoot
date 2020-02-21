@@ -1,0 +1,11 @@
+
+public class ipi {
+
+	public static void main(String[] args) {
+		
+		int codigoPeca1 = 1234;
+		int codigoPeca2 = 4321;
+		
+	}
+
+}

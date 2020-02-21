@@ -1,0 +1,7 @@
+package exercicioAgenda;
+
+import java.util.Scanner;
+
+public class Agenda extends Contato {
+		
+}

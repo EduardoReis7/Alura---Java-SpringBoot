@@ -1,0 +1,10 @@
+public class TestaEmprestimoLivro {
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa("Eduardo", "2132312", "meuemaiwdmapwok", 2312312);
+		Livro livro = new Livro("a","a","a");
+		Livro[] livros = {livro};
+		Emprestimo emprestimo = new Emprestimo("aowkda", livros, pessoa);
+		
+	}
+	
+}

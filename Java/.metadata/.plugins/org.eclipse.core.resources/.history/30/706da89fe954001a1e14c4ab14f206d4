@@ -1,0 +1,14 @@
+package br.com.loiane.exercicio8;
+
+import java.util.Scanner;
+
+public class Exercicio8 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("");
+	}
+
+}

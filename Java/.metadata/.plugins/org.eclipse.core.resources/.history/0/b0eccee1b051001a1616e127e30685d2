@@ -1,0 +1,8 @@
+package exercicioAgenda;
+
+public class Agenda extends Contato {
+
+	public static void main(String[] args) {
+		
+	}
+}

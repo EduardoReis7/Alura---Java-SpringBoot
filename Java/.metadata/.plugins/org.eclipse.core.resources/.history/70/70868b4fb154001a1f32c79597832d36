@@ -1,0 +1,27 @@
+package br.com.loiane.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		int i = 0;
+		
+		
+		
+		System.out.println("Digite uma nota (0-10): ");
+		int nota = scanner.nextInt();
+		if (nota < 0 || nota > 10) {
+			System.out.println("Valor inválido");
+			break;
+		} else {
+			System.out.println(nota);
+		}
+		
+		while( )
+	}
+
+}

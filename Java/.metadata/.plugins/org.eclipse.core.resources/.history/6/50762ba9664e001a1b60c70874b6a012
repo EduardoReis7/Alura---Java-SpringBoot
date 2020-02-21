@@ -1,0 +1,22 @@
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+
+public class idade {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o dia de nascimento:");
+		int dia = scanner.next();
+		System.out.println("Digite o mês de nascimento: ");
+		String mes = scanner.next();
+		System.out.println("Digite o ano de nascimento: ");
+		String ano = scanner.next();
+		
+		LocalDate dataNascimento = LocalDate.of(ano, mes, dia);
+
+
+		
+		System.out.println(dataNascimento);
+	}
+}

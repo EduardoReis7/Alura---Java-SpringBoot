@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class ipi {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int codigoPeca1 = 1234;
+		int codigoPeca2 = 4321;
+		double valorPeca1 = 240;
+		double valorPeca2 = 320;
+		double ipi = 0.001;
+		
+		System.out.println("Quantidade de peças 1: ");
+		int quantidade1 = scanner.nextInt();
+		System.out.println("Quantidade de peças 2: ");
+		int quantidade2 = scanner.nextInt();
+		
+		double total = (valorPeca1*quantidade1 + valorPeca2*quantidade2) * ipi;
+		
+		System.out.println("Peça 1, código: " + codigoPeca1 + ", quantidade de peças: " + quantidade1);
+		System.out.println("Peça 2, código: " + codigoPeca2 + ", quantidade de peças: " + quantidade2);
+		System.out.println("Total a pagar: " + total);
+		
+	}
+
+}

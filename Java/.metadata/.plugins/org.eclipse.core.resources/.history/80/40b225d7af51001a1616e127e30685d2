@@ -1,0 +1,13 @@
+package exercicioAgenda;
+
+public class Agenda extends Contato {
+	
+	Contato[] contatos = new Contato[5];
+	
+	public void adicionaContato(String nome, String email) {
+		super.setNome(nome);
+		super.setEmail(email);
+	}
+	
+	
+}

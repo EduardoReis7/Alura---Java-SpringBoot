@@ -1,0 +1,20 @@
+
+public class SpeedConverter {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public static double toMilesPerHour(double kilometersPerHour) {
+		if (kilometersPerHour < 0) {
+			return -1;
+		} else {
+			double milesPerHour = Math.round(kilometersPerHour * 1000);
+			return milesPerHour;
+		}
+	}
+	
+	public static double printConversion(double killometersPerHour) {
+		
+	}
+}

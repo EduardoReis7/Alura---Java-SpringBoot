@@ -1,0 +1,41 @@
+package br.com.loiane.exercicio3;
+
+import java.math.BigDecimal;
+
+public class Validador {
+	
+	public boolean validaNome(String nome) {
+		if (nome.length() > 3) {
+			return true;
+		} 
+		return false;
+	}
+	
+	public boolean validaIdade(int idade) {
+		if (idade >= 0 && idade <= 150) {
+			return true;
+		} 
+		return false;
+	}
+	
+	public BigDecimal validaSalario(BigDecimal salario) {
+		if (salario.signum(1)) {
+			return true;
+		} 
+		return false;
+	}
+	
+	public boolean validaSexo(Character sexo) {
+		if (sexo.equals('m') || sexo.equals('f')) {
+			return true;
+		} 
+		return false;
+	}
+	
+	public boolean validaEstadoCivil(Character estadoCivil) {
+		if (estadoCivil.equals('s') || estadoCivil.equals('c') || estadoCivil.equals('v') || estadoCivil.equals('d')) {
+			return true;
+		} 
+		return false;
+	}
+}

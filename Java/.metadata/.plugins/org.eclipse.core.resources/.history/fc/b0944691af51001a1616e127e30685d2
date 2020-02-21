@@ -1,0 +1,5 @@
+package exercicioAgenda;
+
+public class Agenda extends Contato {
+	Contato[] contatos = new Contato[];
+}

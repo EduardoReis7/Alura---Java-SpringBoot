@@ -1,0 +1,21 @@
+package br.com.loiane.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Nome: ");
+		String nome = scanner.next();
+		System.out.println("Idade: ");
+		int idade = scanner.nextInt();
+		System.out.println("Salário: ");
+		double salario = scanner.nextDouble();
+		System.out.println("Sexo: ");
+		char sexo = scanner.next().charAt(0);
+		System.out.println("Estado Civil: ");
+		char estadoCivil = scanner.next().charAt(0);
+	}
+}

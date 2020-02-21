@@ -1,0 +1,11 @@
+package br.com.alura.threads;
+
+import javax.swing.plaf.synth.SynthSeparatorUI;
+
+public class Threads {
+
+	public static void main(String[] args) {
+		System.out.println("Thread main");
+	}
+
+}

@@ -1,0 +1,16 @@
+public class Emprestimo {
+	private String prazo;
+	
+	public Emprestimo(String prazo) {
+		this.prazo = prazo;
+	}
+
+	public String getPrazo() {
+		return prazo;
+	}
+
+	public void setPrazo(String prazo) {
+		this.prazo = prazo;
+	}
+
+}

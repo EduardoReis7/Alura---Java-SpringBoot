@@ -1,0 +1,24 @@
+package br.com.loiane.exercicio4;
+
+import java.math.BigDecimal;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		BigDecimal paisA = new BigDecimal(80000);
+		BigDecimal paisB = 200000;
+		
+		int anos = 0;
+		while (paisA <= paisB) {
+			
+			paisA += paisA * 0.03;
+			paisB += paisB * 0.015;
+			anos++;
+			System.out.println("Pais A : " + paisA + "    Pais B : " + paisB);
+		}
+		System.out.println("ano : " + anos);
+		
+		
+	}
+
+}

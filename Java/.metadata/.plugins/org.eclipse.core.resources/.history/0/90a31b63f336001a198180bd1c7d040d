@@ -1,0 +1,10 @@
+public class TestaEmprestimoLivro {
+	public static void main(String[] args) {
+		
+		Pessoa pessoa = new Pessoa("Eduardo", "012312312323", "kkkkk@kkk.com", 1223430948);
+		Livro livro = new Livro("kk", "kk", "kkk");
+	}
+	
+}
+//menu com opcoes
+//cadastrar usuario, adicionar livro, emprestar livro

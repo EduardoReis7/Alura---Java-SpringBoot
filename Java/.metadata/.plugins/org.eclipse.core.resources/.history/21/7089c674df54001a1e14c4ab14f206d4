@@ -1,0 +1,25 @@
+package br.com.loiane.exercicio4;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		double paisA = 1;
+		double paisB = 10;
+		
+		double taxaPaisA = paisA * 0.1;
+		double taxaPaisB = paisB * 0.01;
+		
+		int anos = 0;
+		while (paisA <= paisB) {
+			
+			paisA = paisA * 0.1;
+			paisB = paisB * 0.01;
+			anos++;
+			System.out.println("AAAAAAAAAAAAAAAA : " + paisA + "BBBBBBBBBBBBBBB : " + paisB);
+		}
+		System.out.println("ano : " + anos);
+		
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+public class idade {
+	public static void main(String[] args) {
+		private Scanner SCANNER = new Scanner(System.in);
+	}
+}

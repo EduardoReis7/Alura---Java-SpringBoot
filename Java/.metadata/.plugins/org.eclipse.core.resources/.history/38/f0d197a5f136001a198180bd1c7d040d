@@ -1,0 +1,19 @@
+public class Emprestimo {
+	private String prazo;
+	Livro[] livro;
+	Pessoa pessoa;
+	
+	public Emprestimo(String prazo) {
+		this.prazo = prazo;
+	}
+
+	public String getPrazo() {
+		return prazo;
+	}
+
+	public void setPrazo(String prazo) {
+		this.prazo = prazo;
+	}
+
+	
+}

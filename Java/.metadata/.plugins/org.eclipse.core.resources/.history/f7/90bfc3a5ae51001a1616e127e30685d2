@@ -1,0 +1,26 @@
+package exercicioAgenda;
+
+import java.util.Scanner;
+
+public class Agenda extends Contato {
+	
+	Contato nome;
+	Contato email;
+	
+	public static Scanner SCANNER;
+	
+	
+	public static void main(String[] args) {
+			
+		Contato[] contatos = new Contato[5];
+		
+		for (int i = 0; i <= contatos.length ; i++) {
+//			if (contatos[i] == null) {
+//				
+//			} else {
+//
+//			}
+		}
+	}
+	
+}

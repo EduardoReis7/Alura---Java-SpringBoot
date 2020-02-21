@@ -1,0 +1,24 @@
+package br.com.loiane.exercicio4;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		int paisA = 80000;
+		int paisB = 200000;
+		
+		double taxaPaisA = paisA * 0.03;
+		double taxaPaisB = paisB * 0.015;
+		
+		double crescimentoA = 0;
+		double crescimentoB = 0;
+		
+		while (paisA <= paisB) {
+			paisA += (taxaPaisA * 365);
+			paisB += (taxaPaisB * 365);
+		}
+		
+		System.out.println(paisA);
+		System.out.println(paisB);
+	}
+
+}

@@ -1,0 +1,28 @@
+package br.com.loiane.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		boolean login = false;
+		
+		while (login != true) {
+			System.out.println("Usuário: ");
+			String usuario = scanner.next();
+			System.out.println("Senha: ");
+			String senha = scanner.next();
+			
+			if ( usuario == senha || senha == usuario ) {
+				System.out.println("Não é permitido o uso de usuário ou senha iguais.");
+			} else { 
+				login = true;
+				System.out.println("Bem-vindo!");
+			}
+		}
+	}
+
+}

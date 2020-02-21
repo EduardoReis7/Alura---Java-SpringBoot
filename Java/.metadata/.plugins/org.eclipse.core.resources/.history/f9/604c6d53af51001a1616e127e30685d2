@@ -1,0 +1,22 @@
+package exercicioAgenda;
+
+import java.util.Scanner;
+
+public class Agenda extends Contato {
+	
+	public static Scanner SCANNER;
+	
+	
+	public static void main(String[] args) {
+			
+		Contato nome;
+		Contato email;
+		
+		String[] contatos = new String[5];
+		int i = 0;
+		while (i < contatos.length) {
+			nome = SCANNER.next();
+		}
+	}
+	
+}

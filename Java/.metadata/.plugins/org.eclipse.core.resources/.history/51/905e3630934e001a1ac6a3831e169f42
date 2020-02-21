@@ -1,0 +1,8 @@
+
+public class calculaSalario {
+
+	public static void main(String[] args) {
+		double salarioMinimo = 1.045;
+	}
+
+}

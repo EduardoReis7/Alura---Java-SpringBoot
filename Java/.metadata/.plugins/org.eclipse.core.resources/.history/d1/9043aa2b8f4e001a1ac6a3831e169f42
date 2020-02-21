@@ -1,0 +1,8 @@
+
+public class saldo {
+	public static void main(String[] args) {
+		double saldo = 300;
+		double novoSaldo = (saldo * 0.1) + saldo;
+		System.out.println(novoSaldo);
+	}
+}

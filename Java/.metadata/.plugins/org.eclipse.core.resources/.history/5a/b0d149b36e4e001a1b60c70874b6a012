@@ -1,0 +1,12 @@
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class idade {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
+		DateTimeFormatter dateTimeFormatter = new DateTimeFormatter("dd/MM/yyyy", Locale.getDefault());
+	}
+}

@@ -1,0 +1,29 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class idade {
+	public static void main(String[] args) throws ParseException {
+		
+//		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
+//		DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy", Locale.getDefault());
+//		
+//		System.out.println("Digite a data de nascimento(dd/MM/yyyy):");
+//		String inputDataNascimentoRecebida = scanner.next();
+//		Date date = simpleDateFormat.parse(inputDataNascimentoRecebida);
+//		LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+//		System.out.println(dateTimeFormatter.format(localDate));
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy)");
+		
+		System.out.println("Digite a sua data de nascimento");
+		
+	}
+}

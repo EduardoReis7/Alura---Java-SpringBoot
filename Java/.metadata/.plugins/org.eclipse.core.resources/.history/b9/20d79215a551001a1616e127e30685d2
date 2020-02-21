@@ -1,0 +1,13 @@
+package exercicios;
+
+public class MediaAluno {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int[] notas = new int[100];
+		
+	}
+
+}

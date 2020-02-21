@@ -1,0 +1,15 @@
+package exercicioAgenda;
+
+import java.util.Scanner;
+
+public class TesteAgenda extends Agenda{
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o nome: ");
+		
+	}
+
+}

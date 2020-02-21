@@ -1,0 +1,39 @@
+package br.com.loiane.exercicio3;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		Validador validador = new Validador();
+		
+		boolean correto = false;
+		
+		while( correto != true) {
+			
+		System.out.println("Nome: ");
+		String nome = scanner.next();
+		validador.validaNome(nome);
+		
+		System.out.println("Idade: ");
+		int idade = scanner.nextInt();
+		validador.validaIdade(idade);
+		
+		System.out.println("Salário: ");
+		double salario = scanner.nextDouble();
+		validador.validaSalario(salario);
+		
+		System.out.println("Sexo(m - f): ");
+		Character sexo = scanner.next().charAt(0);
+		validador.validaSexo(sexo);
+		
+		System.out.println("Estado Civil(s - c - v - d): ");
+		Character estadoCivil = scanner.next().charAt(0);
+		validador.validaEstadoCivil(estadoCivil);
+		
+		scanner.close();
+	}
+	
+	
+}

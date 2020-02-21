@@ -1,0 +1,15 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class trocaNumero {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int numA = 0;
+		
+	}
+
+}

@@ -1,0 +1,43 @@
+package br.com.loiane.exercicio3;
+
+public class Validador {
+	
+	public boolean validaNome(String nome) {
+		if (nome.length() < 2) {
+			return false;
+		} 
+		return true;
+	}
+	
+	public boolean validaIdade(int idade) {
+		if (idade >= 0 && idade <= 150) {
+			return true;
+		} else {
+			System.out.println("Idade inválida");
+		}
+	}
+	
+	public void validaSalario(double salario) {
+		if (salario < 0) {
+			System.out.println("Salário inválido");
+		} else {
+			System.out.println(salario);
+		}
+	}
+	
+	public void validaSexo(Character sexo) {
+		if (sexo.equals('m') || sexo.equals('f')) {
+			System.out.println(sexo);
+		} else {
+			System.out.println("Sexo inválido");
+		}
+	}
+	
+	public void validaEstadoCivil(Character estadoCivil) {
+		if (estadoCivil.equals('s') || estadoCivil.equals('c') || estadoCivil.equals('v') || estadoCivil.equals('d')) {
+			System.out.println(estadoCivil);
+		} else {
+			System.out.println("Estado Civil Inválido");
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package exercicioAgenda;
+
+public class Contato {
+
+	public static void main(String[] args) {
+		public String nome;
+		public String email;
+	}
+
+}

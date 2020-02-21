@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\eduardo.reis\Desktop\projeto\hotel-transilvania"/>
+		<item value="C:\Users\eduardo.reis\Desktop\git\hotel-transilvania"/>
+		<item value="C:\Users\eduardo.reis\IdeaProjects\java-pilha"/>
+		<item value="C:\Users\eduardo.reis\IdeaProjects\bytebank-herdado-conta"/>
+		<item value="C:\Users\eduardo.reis\IdeaProjects\bytebank-herdado"/>
+	</list>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1578658215501" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+</section>
